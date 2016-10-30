@@ -1,0 +1,35 @@
+ERROR in ./~/datalib/package.json
+Module parse failed: /Users/tonyhschu/code/vega-webpack-bug/node_modules/datalib/package.json Unexpected token (2:9)
+You may need an appropriate loader to handle this file type.
+SyntaxError: Unexpected token (2:9)
+    at Parser.pp$4.raise (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:2221:15)
+    at Parser.pp.unexpected (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:603:10)
+    at Parser.pp.semicolon (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:581:61)
+    at Parser.pp$1.parseExpressionStatement (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:966:10)
+    at Parser.pp$1.parseStatement (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:730:24)
+    at Parser.pp$1.parseBlock (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:981:25)
+    at Parser.pp$1.parseStatement (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:709:33)
+    at Parser.pp$1.parseTopLevel (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:638:25)
+    at Parser.parse (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:516:17)
+    at Object.parse (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/node_modules/acorn/dist/acorn.js:3098:39)
+    at Parser.parse (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/Parser.js:902:15)
+    at DependenciesBlock.<anonymous> (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModule.js:104:16)
+    at DependenciesBlock.onModuleBuild (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:310:10)
+    at nextLoader (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:275:25)
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:259:5
+    at Storage.provide (/Users/tonyhschu/code/vega-webpack-bug/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:52:20)
+    at CachedInputFileSystem.readFile (/Users/tonyhschu/code/vega-webpack-bug/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:140:24)
+    at DependenciesBlock.onLoadPitchDone (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:255:7)
+    at DependenciesBlock.loadPitch (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:182:27)
+    at DependenciesBlock.doBuild (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack-core/lib/NormalModuleMixin.js:241:4)
+    at DependenciesBlock.build (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModule.js:84:14)
+    at Compilation.buildModule (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/Compilation.js:126:9)
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/Compilation.js:309:10
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModuleFactory.js:58:13
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/Users/tonyhschu/code/vega-webpack-bug/node_modules/tapable/lib/Tapable.js:75:69)
+    at onDoneResolving (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModuleFactory.js:38:11)
+    at onDoneResolving (/Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModuleFactory.js:121:6)
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/webpack/lib/NormalModuleFactory.js:116:7
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/async/lib/async.js:726:13
+    at /Users/tonyhschu/code/vega-webpack-bug/node_modules/async/lib/async.js:52:16
+ @ ./~/datalib/src/index.js 4:14-40
