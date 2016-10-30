@@ -8,7 +8,7 @@ $ webpack
 ```
 
 What you should see is that acorn.js (parser used by webpack to parse stuff) chokes on
-datalib's package.json ... which doesn't really make sense.
+datalib's package.json ... which doesn't really make sense. `terminal-error.txt` contains the error output.
 
 To temporarily fix it, I modified the `index.js` file in `node_modules/datalib/src/` and in `node_modules/vega/src` to remove the version line. Webpack stopped choking after that.
 
