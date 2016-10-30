@@ -1,3 +1,5 @@
+Edit: Resolved! Use `json-loader` to help webpack deal with `.json` files. See: https://github.com/vega/vega/issues/638
+
 This repo isolates a bug when using webpack with vega and datalib.
 
 To run, clone, then do the following.
